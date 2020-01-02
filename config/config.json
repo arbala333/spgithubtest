@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-git-hub-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spGitHubTest/SpGitHubTestWebPart.js",
+          "manifest": "./src/webparts/spGitHubTest/SpGitHubTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpGitHubTestWebPartStrings": "lib/webparts/spGitHubTest/loc/{locale}.js"
+  }
+}
